@@ -1,0 +1,20 @@
+{
+    "name": "pabloprieto/oauth2",
+    "description": "A simple OAuth2 client working with Zend\\Http",
+    "keywords": ["oauth", "oauth2", "oauth client", "client", "zend", "http"],
+    "homepage": "http://github.com/pabloprieto/OAuth2",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pablo Prieto",
+            "email": "contact@pabloprieto.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "zendframework/zend-http": "2.*"
+    },
+    "autoload": {
+        "psr-4": { "OAuth2\\": "src/" }
+    }
+}
